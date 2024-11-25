@@ -7,14 +7,15 @@
 	objects = {
 
 /* Begin PBXCopyFilesBuildPhase section */
-		8B42D9D02CF52E3F0019B853 /* CopyFiles */ = {
+		8B42D9D02CF52E3F0019B853 /* Copy Files (75 items) */ = {
 			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = /usr/share/man/man1/;
-			dstSubfolderSpec = 0;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
 			files = (
 			);
-			runOnlyForDeploymentPostprocessing = 1;
+			name = "Copy Files (75 items)";
+			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
@@ -22,9 +23,96 @@
 		8B42D9D22CF52E3F0019B853 /* AoC-2024 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "AoC-2024"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		8B42DBB82CF572130019B853 /* Exceptions for "AoC-2024" folder in "Copy Files (75 items)" phase from "AoC-2024" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = 8B42D9D02CF52E3F0019B853 /* Copy Files (75 items) */;
+			membershipExceptions = (
+				data/day1/d1_e1.txt,
+				data/day1/d1_e2.txt,
+				data/day1/d1.txt,
+				data/day2/d2_e1.txt,
+				data/day2/d2_e2.txt,
+				data/day2/d2.txt,
+				data/day3/d3_e1.txt,
+				data/day3/d3_e2.txt,
+				data/day3/d3.txt,
+				data/day4/d4_e1.txt,
+				data/day4/d4_e2.txt,
+				data/day4/d4.txt,
+				data/day5/d5_e1.txt,
+				data/day5/d5_e2.txt,
+				data/day5/d5.txt,
+				data/day6/d6_e1.txt,
+				data/day6/d6_e2.txt,
+				data/day6/d6.txt,
+				data/day7/d7_e1.txt,
+				data/day7/d7_e2.txt,
+				data/day7/d7.txt,
+				data/day8/d8_e1.txt,
+				data/day8/d8_e2.txt,
+				data/day8/d8.txt,
+				data/day9/d9_e1.txt,
+				data/day9/d9_e2.txt,
+				data/day9/d9.txt,
+				data/day10/d10_e1.txt,
+				data/day10/d10_e2.txt,
+				data/day10/d10.txt,
+				data/day11/d11_e1.txt,
+				data/day11/d11_e2.txt,
+				data/day11/d11.txt,
+				data/day12/d12_e1.txt,
+				data/day12/d12_e2.txt,
+				data/day12/d12.txt,
+				data/day13/d13_e1.txt,
+				data/day13/d13_e2.txt,
+				data/day13/d13.txt,
+				data/day14/d14_e1.txt,
+				data/day14/d14_e2.txt,
+				data/day14/d14.txt,
+				data/day15/d15_e1.txt,
+				data/day15/d15_e2.txt,
+				data/day15/d15.txt,
+				data/day16/d16_e1.txt,
+				data/day16/d16_e2.txt,
+				data/day16/d16.txt,
+				data/day17/d17_e1.txt,
+				data/day17/d17_e2.txt,
+				data/day17/d17.txt,
+				data/day18/d18_e1.txt,
+				data/day18/d18_e2.txt,
+				data/day18/d18.txt,
+				data/day19/d19_e1.txt,
+				data/day19/d19_e2.txt,
+				data/day19/d19.txt,
+				data/day20/d20_e1.txt,
+				data/day20/d20_e2.txt,
+				data/day20/d20.txt,
+				data/day21/d21_e1.txt,
+				data/day21/d21_e2.txt,
+				data/day21/d21.txt,
+				data/day22/d22_e1.txt,
+				data/day22/d22_e2.txt,
+				data/day22/d22.txt,
+				data/day23/d23_e1.txt,
+				data/day23/d23_e2.txt,
+				data/day23/d23.txt,
+				data/day24/d24_e1.txt,
+				data/day24/d24_e2.txt,
+				data/day24/d24.txt,
+				data/day25/d25_e1.txt,
+				data/day25/d25_e2.txt,
+				data/day25/d25.txt,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		8B42D9D42CF52E3F0019B853 /* AoC-2024 */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				8B42DBB82CF572130019B853 /* Exceptions for "AoC-2024" folder in "Copy Files (75 items)" phase from "AoC-2024" target */,
+			);
 			path = "AoC-2024";
 			sourceTree = "<group>";
 		};
@@ -66,7 +154,7 @@
 			buildPhases = (
 				8B42D9CE2CF52E3F0019B853 /* Sources */,
 				8B42D9CF2CF52E3F0019B853 /* Frameworks */,
-				8B42D9D02CF52E3F0019B853 /* CopyFiles */,
+				8B42D9D02CF52E3F0019B853 /* Copy Files (75 items) */,
 			);
 			buildRules = (
 			);
