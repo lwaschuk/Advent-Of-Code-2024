@@ -9,7 +9,7 @@ import Foundation
 
 /// A utility class for navigating and interacting with a 2D array of characters.
 class ArrayNavigation {
-  let input: [[Character]]
+  var input: [[Character]]
   let columns: Int
   let rows: Int
   var currentPosition: Position = Position(row: 0, column: 0)
@@ -20,6 +20,30 @@ class ArrayNavigation {
     rows = input.count
   }
 
+  /// Update the array location to a provided char
+  func updateCharacter(to character: Character) {
+    input[currentPosition.row][currentPosition.column] = character
+  }
+  
+  /// Update a position in the array location to a provided char
+  func updateCharacter(at position: Position, to character: Character) {
+    input[position.row][position.column] = character
+  }
+  
+  /// Set the position to the first occurance of a character
+  ///
+  /// Example: In a map where someones starting position is a ^
+  func setPosition(toFirstOccuranceOf character: Character) {
+    for (index_Y, row) in input.enumerated() {
+      for (index_X, _) in row.enumerated() {
+        if input[index_Y][index_X] == character {
+          currentPosition = Position(row: index_Y, column: index_X)
+          return
+        }
+      }
+    }
+  }
+  
   /// Get the current character at the current position pointer
   func currentCharacter() -> Character {
     return input[currentPosition.row][currentPosition.column]
