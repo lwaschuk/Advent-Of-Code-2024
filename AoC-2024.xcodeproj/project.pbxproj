@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		8BA6E8AC2D04126600F8EA7C /* Algorithms in Frameworks */ = {isa = PBXBuildFile; productRef = 8BA6E8AB2D04126600F8EA7C /* Algorithms */; settings = {ATTRIBUTES = (Required, ); }; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		8B933A8C2D00FEBC00FD9A58 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -134,6 +138,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8BA6E8AC2D04126600F8EA7C /* Algorithms in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -184,6 +189,7 @@
 			);
 			name = "AoC-2024";
 			packageProductDependencies = (
+				8BA6E8AB2D04126600F8EA7C /* Algorithms */,
 			);
 			productName = "AoC-2024";
 			productReference = 8B42D9D22CF52E3F0019B853 /* AoC-2024 */;
@@ -236,6 +242,9 @@
 			);
 			mainGroup = 8B42D9C92CF52E3F0019B853;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				8BA6E8AA2D04121400F8EA7C /* XCRemoteSwiftPackageReference "swift-algorithms" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 8B42D9D32CF52E3F0019B853 /* Products */;
 			projectDirPath = "";
@@ -484,6 +493,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8BA6E8AA2D04121400F8EA7C /* XCRemoteSwiftPackageReference "swift-algorithms" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apple/swift-algorithms.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8BA6E8AB2D04126600F8EA7C /* Algorithms */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8BA6E8AA2D04121400F8EA7C /* XCRemoteSwiftPackageReference "swift-algorithms" */;
+			productName = Algorithms;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8B42D9CA2CF52E3F0019B853 /* Project object */;
 }
