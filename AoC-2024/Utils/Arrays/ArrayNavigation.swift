@@ -130,7 +130,7 @@ class ArrayNavigation {
   }
 
   /// Check if a position is within the bounds of the array
-  private func inBounds(position: Position) -> Bool {
+  func inBounds(position: Position) -> Bool {
     position.row >= 0 && position.row < rows && position.column >= 0 && position.column < columns
   }
 }
