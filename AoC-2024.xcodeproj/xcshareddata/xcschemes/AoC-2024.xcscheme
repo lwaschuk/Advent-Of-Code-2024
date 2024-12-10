@@ -54,7 +54,7 @@
       <EnvironmentVariables>
          <EnvironmentVariable
             key = "RUN_DAY"
-            value = "8"
+            value = "9"
             isEnabled = "YES">
          </EnvironmentVariable>
       </EnvironmentVariables>
