@@ -8,6 +8,8 @@
 import Foundation
 
 struct Direction: Equatable, Comparable {
+  static var CARDINAL: [Direction] = [.EAST, .SOUTH, .WEST, .NORTH,]
+
   let rawValue: (Int, Int)
   static let NORTH = Direction(rawValue: (-1, 0))
   static let SOUTH = Direction(rawValue: (1, 0))
